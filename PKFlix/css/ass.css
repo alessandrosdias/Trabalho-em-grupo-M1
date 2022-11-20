@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+}
+
+.container-ass nav h2{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.container-ass nav h2 :hover{
+    text-decoration: none;
+    transform: scale(1.2);
+    background-color: transparent;
+    border-radius: 2px solid white;
+    cursor: pointer; 
+
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    background: linear-gradient(gray, black);
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.container-ass{
+    width: 100%;
+    padding: 100px 0px;
+    height: 100vh;
+}
+
+
+.btn{
+    background-color: white;
+    color:black;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.btn:hover{
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.container-ass{
+    background-image: url(../img/terrozada.jpg.jpg);
+    background-color: #101010 ;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px ;
+    flex-wrap: wrap;
+}
+
+.card{
+    background:linear-gradient(gray, black);
+    height: 365px ;
+    width: 335px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+
+}
+
+.card h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
